@@ -18,6 +18,7 @@ export default function Index() {
     return (
         <div>
             <h1>All Events</h1>
+            <Link href={'/events/create'}>Create new</Link>
             <ul>
                 {events.map(event => (
                     <li key={event._id}>
